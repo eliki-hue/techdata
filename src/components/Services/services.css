@@ -1,0 +1,24 @@
+.col-empty{
+    /* width: 10vw; */
+    background-color: rgba(68, 228, 239, 0.941);
+    height: 20px;
+    align-content: center;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.col-text1{
+    background-color: #2596be;
+    color: white;
+}
+.col-text2{
+    /* background-color: #2596be; */
+    color: #2596be;
+}
+.row{
+    margin-bottom: 40px;
+    font-size: larger;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

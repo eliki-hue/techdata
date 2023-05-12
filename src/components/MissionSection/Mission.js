@@ -4,7 +4,7 @@ import './mission.css'
 
 const Mission = () => {
   return (
-    <div className='container'>
+    <div className='container mb-4'>
         <div className='row'>
             <div className='col mission-cards'>
               <div className="card-parent">
