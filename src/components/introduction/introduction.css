@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(245, 245, 245, 0.719);
+}
+
+
+
+.intro-row{
+    height: 50vw;
+    margin-top: -80px;
+    background-image: url("../../images/3d-image-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #a7d8f2; */
+    
+    
+    
+}
+.intro-row2{
+    height: 30vw;
+    /* margin-top: -380px; */
+    background-image: url("../../images/network.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+    /* background-color: #a7d8f2; */
+    
+    
+    
+}
+.intro-col{
+    align-content: center;
+   display:grid;
+}
+.intro-col-2{
+    /* background-color: rgb(167, 216, 242); */
+    align-content: space-evenly;
+    justify-content: center;
+    /* opacity: .43; */
+}
+.image{
+    /* border-radius: 50%;
+    background-color: rgb(225, 236, 242);
+    width: 200px;
+    /* min-height: 200px; */
+    /* padding: 20px; */ 
+    margin: 10px;
+}
