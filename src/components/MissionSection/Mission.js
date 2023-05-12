@@ -1,5 +1,9 @@
 import React from 'react'
 import logo from '../../images/techdata logo.png'
+import vision from "../../images/vision.png"
+import vision2 from "../../images/vision2.png"
+import mission from "../../images/mission.png"
+import values from "../../images/values.png"
 import './mission.css'
 
 const Mission = () => {
@@ -9,7 +13,7 @@ const Mission = () => {
             <div className='col mission-cards'>
               <div className="card-parent">
                 <div className="card mb-4 mt-4 ">
-                  <img className="img mb-4" variant="top" src={logo} />
+                  <img className="img mb-4" variant="top" src={mission} />
 
                   <h3>{'Mission'}</h3>
                   <p>To provide quality uncompromised services and
@@ -20,7 +24,7 @@ and protected.</p>
 
               <div className="card-parent">
                 <div className="card mb-4 mt-4 ">
-                  <img className="img mb-4" variant="top" src={logo} />
+                  <img className="img " variant="top" src={vision2} />
 
                   <h3>{'Vision'}</h3>
                   <p>To be the East Africa’s premier service and
@@ -31,8 +35,8 @@ our clients’ requirements.</p>
               </div>
               <div className="card-parent">
                 <div className="card mb-4 mt-4 ">
-                  <img className="img mb-4" variant="top" src={logo} />
-
+                  <img className="img mb-4" variant="top" src={values} />
+                  
                   <h3>{'Values'}</h3>
                   <p>Built upon the founders’ personal guiding
 principles, these central, underlying philosophies

@@ -16,3 +16,17 @@
     
 
    }
+.card img{
+    width:30%;
+    height: auto;
+    margin: 20px;
+}
+.card h3{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.card p{
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-right: 10px;
+}
