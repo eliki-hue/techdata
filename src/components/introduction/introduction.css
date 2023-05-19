@@ -7,7 +7,7 @@ body{
 .intro-row{
     height: 50vw;
     margin-top: -80px;
-    background-image: url("../../images/3d-image-3.png");
+    /* background-image: url("../../images/3d-image-3.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: #a7d8f2; */

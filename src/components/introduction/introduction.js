@@ -6,7 +6,8 @@ const introduction = () => {
   return (
     <div>
         <div className='container-fluid' >
-            <div><img className="img image" variant="top" src={logo} />
+            <div>
+              {/* <img className="img image" variant="top" src={logo} /> */}
              </div>
             <div className='row intro-row2'>
                 <div className='col intro-col' >

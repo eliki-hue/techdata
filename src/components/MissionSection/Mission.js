@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../images/techdata logo.png'
-import vision from "../../images/vision.png"
+// import vision from "../../images/vision.png"
 import vision2 from "../../images/vision2.png"
 import mission from "../../images/mission.png"
 import values from "../../images/values.png"
