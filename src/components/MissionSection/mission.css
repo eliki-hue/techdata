@@ -1,7 +1,11 @@
 .mission-cards{
     display: flex;
+    flex-wrap:wrap;
     justify-content: space-around;
     margin-top: 50px;
+}
+.card-parent{
+    margin-bottom:20px;
 }
 .card {
     justify-content: center;

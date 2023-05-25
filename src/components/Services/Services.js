@@ -24,11 +24,11 @@ const Services = () => {
                 <div className='col '></div>
             </div>
             <div className='row'>
-                <div className='col-md-5'>
+                <div className='col-lg-5'>
                 <img className="img " variant="top" src={system} />
 
                 </div>
-                <div className='col-md-7 col-text1'>
+                <div className='col-lg-7 col-text1'>
                 <h4>System Integration</h4>
                     <p>Our customers are increasingly leveraging information technology
                         to accomplish their business objectives – relying heavily on their
@@ -45,9 +45,9 @@ const Services = () => {
                 </div>
             </div>
             <div className='row'>
-                {/* <div className='col-md-7 col-text2'> */}
+                {/* <div className='col-lg-7 col-text2'> */}
                     <div className='row'>
-                        <div className='col-md-7 col-text1'>
+                        <div className='col-lg-7 col-text1'>
                             <h2>Infrastructure Solutions</h2>
                             <h4>Enterprise Network Solutions</h4>
                             <p>An Enterprise Network is used by midsize to large organizations to connect their
@@ -59,13 +59,13 @@ const Services = () => {
                             </p>
                     
                         </div>
-                        <div className='col col-text2'>
+                        <div className='col-lg-5 col-text2'>
                             <img className="img " style={{height:""}} variant="top" src={network} /><br/>
                     
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='col-md-7 col-text1'>
+                        <div className='col-lg-7 col-text1'>
                             <h4>We deliver a full array of Networking services</h4>
                             <ul>
                                 <li>Wired or wireless network</li>
@@ -86,11 +86,11 @@ const Services = () => {
             </div>
 
             <div className='row'>
-                <div className='col-md-5'>
+                <div className='col-lg-5'>
                 <img className="img " variant="top" src={server} />
 
                 </div>
-                <div className='col-md-7 col-text1'>
+                <div className='col-lg-7 col-text1'>
                 <h4>Servers, Storage & Virtualization Solutions:</h4>
                     <p>
                     ECHDATA Technologies has extensive experience designing and
@@ -110,25 +110,25 @@ const Services = () => {
                 </div>
             </div>
             <div className='row'>
-                <div className='col-md-7 col-text2'>
+                <div className='col-lg-7 col-text1'>
                     <h4>Collaboration (Integrated Data, Voice, Video)</h4>
-                    <p>ntegrated Data, Voice and Video have become popular with businesses because
+                    <p>Integrated Data, Voice and Video have become popular with businesses because
                         of its flexibility, reliability and cost effectiveness. It allows an enterprise to
                         leverage its internet access circuit by dynamically carrying internet and voice
                         traffic flawlessly over it.</p>
                 </div>
-                <div className='col-md-5'>
+                <div className='col-lg-5'>
                     <img className="img " variant="top" src={collaboration} />
 
                 </div>
             </div>
 
             <div className='row'>
-                <div className='col-md-5'>
+                <div className='col-lg-5'>
                 <img className="img " variant="top" src={datacenter} />
 
                 </div>
-                <div className='col-md-7 col-text1'>
+                <div className='col-lg-7 col-text1'>
                 <h2>Data Center Solutions</h2>
                     <p>
                     In this data decade, organisations are looking to get the most out of their data,
@@ -151,7 +151,7 @@ const Services = () => {
                 </div>
             </div>
             <div className='row'>
-                <div className='col-md-7 col-text2'>
+                <div className='col-lg-7 col-text2'>
                     <h2>System Support</h2>
                     <p>
                     TECHDATA Technologies support services offer flexibility to match the needs
@@ -195,18 +195,18 @@ const Services = () => {
                      Monthly contract performance reviews 
                     </p>
                 </div>
-                <div className='col-md-5'>
+                <div className='col-lg-5'>
                     <img className="img " variant="top" src={systemsupport} />
 
                 </div>
             </div>
 
             <div className='row'>
-                <div className='col-md-5'>
+                <div className='col-lg-5'>
                 <img className="img " variant="top" src={systemmanagement} />
 
                 </div>
-                <div className='col-md-7 col-text1'>
+                <div className='col-lg-7 col-text1'>
                 <h2>Product / System Maintenance</h2>
                     <p>
                     TECHDATA Technologies technical expertise in IT extends across multiple
@@ -220,7 +220,7 @@ const Services = () => {
                 </div>
             </div>
             <div className='row'>
-                <div className='col-md-7 col-text2'>
+                <div className='col-lg-7 col-text2'>
                     <h2>Consultancy and Managed Network Support Services</h2>
                     <p>
                         TECHDATA Technologies designs, implements, project management, and
@@ -253,19 +253,19 @@ const Services = () => {
                     
                     </p>
                 </div>
-                <div className='col-md-5'>
+                <div className='col-lg-5'>
                     <img className="img " variant="top" src={managedservices} />
-                    <img className="img " variant="top" src={networkassesment} />
+                    {/* <img className="img " variant="top" src={networkassesment} /> */}
 
                 </div>
             </div>
             
             <div className='row'>
-                <div className='col-md-5'>
+                <div className='col-lg-5'>
                 <img className="img " variant="top" src={sdlc} />
 
                 </div>
-                <div className='col-md-7 col-text1'>
+                <div className='col-lg-7 col-text1'>
                 <h2>Software Development Services</h2>
                     <p>
                     We employ best practice

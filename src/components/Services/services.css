@@ -9,7 +9,7 @@
     height: 100%;
 }
 .col-text1{
-    background-color: #2596be;
+    background-color: #2595becf;
     color: white;
 }
 .col-text2{
@@ -21,4 +21,7 @@
     font-size: larger;
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.col-text1 ul{
+    justify-content:center
 }
