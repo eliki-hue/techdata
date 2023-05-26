@@ -13,7 +13,7 @@ function App() {
       <Mission/><br/>
       <Services/><br/>
       <Carousel/>
-      <Customers/>
+      {/* <Customers/> */}
     </div>
   );
 }

@@ -7,6 +7,9 @@
 .card-parent{
     margin-bottom:20px;
 }
+.card:hover{
+    background-color: rgba(255, 255, 255, 0.554);
+}
 .card {
     justify-content: center;
     align-items: center;

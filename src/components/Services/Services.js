@@ -110,7 +110,7 @@ const Services = () => {
                 </div>
             </div>
             <div className='row'>
-                <div className='col-lg-7 col-text1'>
+                <div className='col-lg-7 center-block col-text1' style={{textAlign:"center"}}>
                     <h4>Collaboration (Integrated Data, Voice, Video)</h4>
                     <p>Integrated Data, Voice and Video have become popular with businesses because
                         of its flexibility, reliability and cost effectiveness. It allows an enterprise to
@@ -119,6 +119,7 @@ const Services = () => {
                 </div>
                 <div className='col-lg-5'>
                     <img className="img " variant="top" src={collaboration} />
+                    {/* <img className="img " variant="top" src={systemmanagement} /> */}
 
                 </div>
             </div>
@@ -267,7 +268,7 @@ const Services = () => {
                 </div>
                 <div className='col-lg-7 col-text1'>
                 <h2>Software Development Services</h2>
-                    <p>
+                   <div className='card-text'> <p>
                     We employ best practice
                     processes
                     and
@@ -278,7 +279,7 @@ const Services = () => {
                     impactful digital solutions that drive meaningful change with a
                     strategic vision.
                     </p>
-                    
+                    </div>
                 </div>
             </div>
 

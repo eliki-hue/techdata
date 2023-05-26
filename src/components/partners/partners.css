@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
   
+  
   /* display: flex; */
   /* justify-content: left; */
 }
@@ -19,23 +20,20 @@
   top: 0;
   height: 100%;
   width: 300%;
-  animation: slideshow 30s linear infinite;
+  animation: slideshow 1s linear infinite;
 }
 .imgslide{
   display: flex;
   height: 200px;
-  transition: opacity 0.5s ease-out; 
+  transition: opacity 0.1s ease-in-out; 
 }
 .imgslide img{
   margin:10px;
   width:20%;
-  animation: moveSlideshow 20s linear infinite;
+  animation: slideshow 10s linear infinite;
 }
 @keyframes slideshow {
   0%    { left: 0; }
   100%  { left: -500%; }
 }
-/* @keyframes slideshow2 {
-  0%    { left: 0; }
-  100%  { left: -500%; }
-} */
+
