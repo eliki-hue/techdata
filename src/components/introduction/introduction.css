@@ -1,15 +1,19 @@
 body{
     background-color: rgba(245, 245, 245, 0.719);
+    /* background-color:#fff; */
+    overflow-x: hidden;
 }
 
 
 
 .intro-row{
     height: 50vw;
-    margin-top: -80px;
+    /* margin-right: -20px; */
+    /* margin-top: -80px; */
     /* background-image: url("../../images/3d-image-3.png"); */
     background-repeat: no-repeat;
     background-size: cover;
+    
     /* background-color: #a7d8f2; */
     
     
@@ -18,10 +22,11 @@ body{
 .intro-row2{
     height: 30vw;
     /* margin-top: -380px; */
-    background-image: url("../../images/network.jpg");
+    /* background-image: url("../../images/network.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: .8;
+    
+    /* opacity: .8; */
     /* background-color: #a7d8f2; */
     
     
@@ -29,7 +34,12 @@ body{
 }
 .intro-col{
     align-content: center;
-   display:grid;
+   display:flex;
+   text-align: center;
+   color:white;
+   height: fit-content;
+   font-weight: 100rem;
+   /* background:black; */
 }
 .intro-col-2{
     /* background-color: rgb(167, 216, 242); */
@@ -44,4 +54,47 @@ body{
     /* min-height: 200px; */
     /* padding: 20px; */ 
     margin: 10px;
+}
+.imgheader{
+    /* opacity: 0.2; */
+    /* position: relative; */
+    margin-right: 20px;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+.heading{
+    position: absolute;
+    font-weight: bolder;
+    /* background-color: black; */
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    /* opacity: 0.3; */
+
+}
+.heading1{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+    z-index: 9999; 
+    opacity: 1;
+    background-color: #121FCF;
+background: -webkit-linear-gradient(to right, #c0c2d7 0%, #CF1512 100%);
+background: -moz-linear-gradient(to right, #dddeef 0%, #CF1512 100%);
+background: linear-gradient(to right, #e6e6eb 0%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.overlay{
+    background-color: rgba(7, 41, 104, 0.908);
+    width: 100%;
+    height: 42vw;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 99;
+
 }

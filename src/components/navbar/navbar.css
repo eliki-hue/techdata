@@ -1,0 +1,21 @@
+body{padding-top: 6.2rem;}
+.navbar{
+    background-color:#8fcee5;;
+    opacity:1;
+    color:white;
+    font-size: large;
+    font-weight:bold;
+    position:fixed;
+    top: 0; left: 0;
+     z-index: 99999; 
+     width: 100%;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-box-shadow: 0px 10px 12px -3px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 10px 12px -3px rgba(0,0,0,0.54);
+box-shadow: 0px 10px 12px -3px rgba(0,0,0,0.54);
+
+}
+.logo{
+    width: 8rem;
+    padding:10px;
+}

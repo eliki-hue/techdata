@@ -76,7 +76,7 @@ const Services = () => {
                                 <li>VPN</li>
                                 <li>Wireless Mesh</li>
                             </ul>
-                    
+                           
                         </div>
                         <div className='col col-text2'>
                             <img className="img " style={{height:""}} variant="top" src={networkarray} /><br/>
@@ -93,7 +93,7 @@ const Services = () => {
                 <div className='col-lg-7 col-text1'>
                 <h4>Servers, Storage & Virtualization Solutions:</h4>
                     <p>
-                    ECHDATA Technologies has extensive experience designing and
+                    TECHDATA Technologies has extensive experience designing and
                     implementing virtualization solutions that reduce the Total Cost of Ownership
                     (TCO) of your IT infrastructure and reduces the IT management burden of key
                     staff members. Our team of virtualization engineers have real-life experience with
@@ -112,10 +112,11 @@ const Services = () => {
             <div className='row'>
                 <div className='col-lg-7 center-block col-text1' style={{textAlign:"center"}}>
                     <h4>Collaboration (Integrated Data, Voice, Video)</h4>
-                    <p>Integrated Data, Voice and Video have become popular with businesses because
+                    <div className='texthanging'><p>Integrated Data, Voice and Video have become popular with businesses because
                         of its flexibility, reliability and cost effectiveness. It allows an enterprise to
                         leverage its internet access circuit by dynamically carrying internet and voice
                         traffic flawlessly over it.</p>
+                        </div>
                 </div>
                 <div className='col-lg-5'>
                     <img className="img " variant="top" src={collaboration} />

@@ -9,10 +9,18 @@
     height: 100%;
 }
 .col-text1{   
-    background-color: #2595becf;
+    /* background-color: #2595becf; */
     
-    color: white;
+    /* color: white; */
+    flex:1;
+    
 }
+.texthanging{
+    display: flex;
+    height: 100%;
+  align-items: center; /* Vertically center the content */
+}
+
 .col-text2{
     /* background-color: #2596be; */
     color: #2596be;
@@ -33,4 +41,9 @@
 }
 .col-text1 ul{
     justify-content:center
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
 }
