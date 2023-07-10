@@ -6,17 +6,15 @@ import headerimage from '../../images/network.jpg'
 const introduction = () => {
   return (
     <div>
-        <div className='container-fluid' >
-            <div>
-              {/* <img className="img image" variant="top" src={logo} /> */}
-             </div>
+        <div className='container-fluid main-container' >
+            
             <div className='row intro-row2'>
               
                 <div className='col intro-col' >
                     
-                <img className="img imageheader" variant="top" src={headerimage} />
+                <img className="imageheader" variant="top" src={headerimage} />
                 <div className='overlay'>
-                {/* <Navbar/> */}
+                <div className='liquidshape'></div>
                 </div>
                 
                 <div className='heading'>
@@ -26,9 +24,18 @@ const introduction = () => {
                 
                 </div>
 
-            </div>
 
+              
+            </div>
+              
         </div>
+        
+        <div className='animation'>
+                <div class="div1" id="one"></div>
+                <div class="div1" id="two"></div>
+                <div class="div2" id="three"></div>
+                <div class="div2" id="four"></div>
+              </div>
     </div>
   )
 }

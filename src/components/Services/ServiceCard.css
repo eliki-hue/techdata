@@ -1,0 +1,31 @@
+.row{
+    /* display: flex;
+  flex-wrap: wrap;
+  align-items: stretch; */
+}
+.col{
+    margin:2rem
+}
+.column{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.card{
+  border-top-left-radius: 300px;
+  border-bottom-right-radius: -600px;
+}
+.service-image{
+  height: 50%;
+  display: block;
+  vertical-align: middle;
+
+}
+.service-body{
+  background-color: rgba(16, 31, 60, 0.752);;
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.service-body h5,h4,h3{
+  color:rgb(249, 53, 53)
+}

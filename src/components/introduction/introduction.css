@@ -3,102 +3,64 @@ body{
     /* background-color:#fff; */
     overflow-x: hidden;
 }
-
-
-
-.intro-row{
-    height: 50vw;
-    /* margin-right: -20px; */
-    /* margin-top: -80px; */
-    /* background-image: url("../../images/3d-image-3.png"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0; left: 0; right: 0;
-    
-    /* background-color: #a7d8f2; */
-    
-    
-    
-}
-.intro-row2{
-    height: 30vw;
-    /* margin-top: -380px; */
-    /* background-image: url("../../images/network.jpg"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0; left: 0; right: 0;
-    /* opacity: .8; */
-    /* background-color: #a7d8f2; */
-    
-    
-    
+.main-container{
+    justify-content: center;
+    height: 60vh;
+    /* padding: 100px; */
+    /* margin-bottom: 100px; */
+    display: flex;
+    /* position:relative; */
 }
 .intro-col{
     align-content: center;
+    justify-content: center;
    display:flex;
+   height: 100%;
    text-align: center;
    color:white;
-   height: fit-content;
+   /* height: fit-content; */
    font-weight: 100rem;
-   op: 0; left: 0; right: 0;
+   /* top: 0; left: 0; right: 0; */
    /* background:black; */
 }
-.intro-col-2{
-    /* background-color: rgb(167, 216, 242); */
-    align-content: space-evenly;
-    justify-content: center;
-    /* opacity: .43; */
-}
-.image{
-    /* border-radius: 50%;
-    background-color: rgb(225, 236, 242);
-    width: 200px;
-    /* min-height: 200px; */
-    /* padding: 20px; */ 
-    margin: 10px;
-    top: 0; left: 0; right: 0;
-}
-.imgheader{
-    /* opacity: 0.2; */
-    /* position: relative; */
-    margin-right: 20px;
-    overflow: hidden;
-    z-index: 1;
-    top: 0; left: 0; right: 0;
-    margin-right: -20px;
-    
+
+
+.imageheader{
+    width: 100vw;
+    /* margin: -100px; */
+    /* display: flex; */
+    /* max-height: 100%; */
 }
 .heading{
+    justify-content: center;
     position: absolute;
     font-weight: bolder;
     /* background-color: black; */
-    height: 100%;
+    height: 60%;
     display:flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    
+    z-index: 999;
 
     /* opacity: 0.3; */
 
 }
 .heading1{
     text-align: center;
+    align-items: center;
     font:5rem Inter,sans-serif;
     font-weight: bolder;
     z-index: 9999; 
     opacity: 1;
     width:70%;
     font-family: inherit;
-    margin: 0 0 46px;
+    /* margin: 0 0 46px; */
     font-weight: 900;
     color: #FFF;
-    margin: 0px 0px 46px;
-    /* background-color: #121FCF; */
-/* background: -webkit-linear-gradient(to right, #c0c2d7 0%, #CF1512 100%);
-background: -moz-linear-gradient(to right, #dddeef 0%, #CF1512 100%);
-background: linear-gradient(to right, #e6e6eb 0%, #CF1512 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent; */
+    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.125), 0 0 1em rgb(78, 78, 194), 0 0 0.2em black;
+    
 }
 h1{
     font-size: 36px;
@@ -106,11 +68,151 @@ h1{
     letter-spacing: -.024em;
 }
 .overlay{
-    background-color: rgba(7, 41, 104, 0.908);
+    background-color:rgba(0, 0, 0, 0.491);
     width: 100%;
-    height: 42vw;
+    height: 55vh;
     position: absolute;
     opacity: 0.5;
     z-index: 99;
 
 }
+
+/* shapes animation */
+.animation{
+  /* width: 20px; */
+  padding: 50px;
+  margin-top: -80px;
+  margin-bottom: 40px;
+}
+
+div {
+    animation: rotate-all 5s 0 infinite linear alternate;
+    
+  }
+  
+  .div1 {
+    width: 20px;
+    height: 20px;
+    background-color: #669999;
+    position: relative;
+    margin: auto;
+    animation: square-to-circle 4.5s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate-reverse;
+  
+  }
+  
+  .div2 {
+      width: 20px;
+    height: 20px;
+    background-color: #669999;
+    position: relative;
+    margin: auto;
+    animation: square-to-circle2 4.5s .42s infinite cubic-bezier(1,.015,.295,1.225) alternate-reverse;
+  }
+  
+  #one {
+    top: 100px;
+    /* background-image: url("../../images/network.jpg"); */
+   
+  }
+   
+  #two {
+    top: 100px;
+    right: 20px;
+  }
+  
+  #three {
+    top: 100px;
+  }
+  
+  #four {
+    bottom: -60px;
+    left: 20px;
+  }
+  
+  @keyframes square-to-circle {
+    0%  {
+      border-radius:0 0 0 0;
+      /* background:; */
+      transform:rotate(45deg);
+    }
+    25%  {
+      border-radius:50% 0 0 0;
+      /* background:darksalmon; */
+      transform:rotate(135deg);
+    }
+    50%  {
+      border-radius:50% 50% 0 0;
+      background:indianred;
+      transform:rotate(180deg);
+    }
+    75%  { 
+      border-radius:50% 50% 50% 0;
+      background:lightcoral;
+      transform:rotate(315deg);
+    }
+    100% {  
+      border-radius:50%;
+      background:darksalmon;
+      transform:rotate(404deg);
+    }
+  }
+  
+  @keyframes square-to-circle2 {
+    0%  {
+      border-radius:0 0 0 0;
+      /* background:; */
+      transform:rotate(45deg);
+    }
+    25%  {
+      border-radius:0 0 50% 0;
+      background:darksalmon;
+      transform:rotate(135deg);
+    }
+    50%  {
+      border-radius:0 0 50% 50%;
+      background:indianred;
+      transform:rotate(180deg);
+    }
+    75%  { 
+      border-radius:50% 0 50% 50%;
+      background:lightcoral;
+      transform:rotate(315deg);
+    }
+    100% {  
+      border-radius:50%;
+      background:darksalmon;
+      transform:rotate(404deg);
+    }
+  }
+  /*end of shapes animation  */
+
+  /* liquid shape */
+  .liquidshape{
+    /* background-image: url("../../images/network.jpg"); */
+    background: linear-gradient(45deg, #00ffb6 0%, #000fa3 100%);
+    width: 350px;
+    height: 400px;
+    z-index: 999;
+    opacity: 0.5;
+    box-shadow:0 0 20px #000;
+    border-radius:60% 40% 30% 70% / 60% 30% 70% 40% ;
+    animation: liquid 8s ease-in-out infinite;
+  }
+
+  @keyframes liquid{
+    0%{
+      border-radius:60% 40% 30% 70% / 60% 30% 70% 40%;
+      background-size:100% 100%;
+    }
+    50%{
+      border-radius:30% 60% 70% 40% / 50% 60% 30% 60%;
+      background-size:300% 150%;
+    }
+    100%{
+      border-radius:60% 70% 30% 10% / 80% 30% 70% 40%;
+      background-size:100% 100%;
+      
+    }
+    
+  }
+  /* end of liquid shape */

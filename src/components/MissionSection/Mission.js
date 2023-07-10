@@ -12,8 +12,8 @@ const Mission = () => {
         <div className='row'>
             <div className='col mission-cards'>
               <div className="card-parent">
-                <div className="card mb-4 mt-4 ">
-                  <img className="img mb-4" variant="top" src={mission} />
+                <div className="card mb-4 mt-2 mission-card ">
+                  <img className="img mb-4 mission-image" variant="top" src={mission} />
 
                   <h3>{'Mission'}</h3>
                   <p>To provide quality uncompromised services and
@@ -23,8 +23,8 @@ and protected.</p>
               </div>
 
               <div className="card-parent">
-                <div className="card mb-4 mt-4 ">
-                  <img className="img " variant="top" src={vision2} />
+                <div className="card mb-4 mt-4 mission-card ">
+                  <img className="img mission-image" variant="top" src={vision2} />
 
                   <h3>{'Vision'}</h3>
                   <p>To be the East Africa’s premier service and
@@ -34,8 +34,8 @@ our clients’ requirements.</p>
                 </div>
               </div>
               <div className="card-parent">
-                <div className="card mb-4 mt-4 ">
-                  <img className="img mb-4" variant="top" src={values} />
+                <div className="card mb-4 mt-4 mission-card">
+                  <img className="img mb-4 mission-image" variant="top" src={values} />
                   
                   <h3>{'Values'}</h3>
                   <p>Built upon the founders’ personal guiding

@@ -6,7 +6,7 @@ import Services from './components/Services/Services';
 import Carousel from './components/partners/Partners';
 import CarouselCustomer from './components/customers/CarouselCustomer';
 import Customers from './components/customers/Customers';
-
+import ServicesCards from './components/Services/ServicesCards';
 
 
 function App() {
@@ -16,9 +16,11 @@ function App() {
      <Navbar/>
       <Introduction/>
       <Mission/><br/>
-      <Services/><br/>
+      {/* <Services/><br/> */}
+      <ServicesCards/>
       <Carousel/>
       {/* <Customers/> */}
+      
     </div>
   );
 }
