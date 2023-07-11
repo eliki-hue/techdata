@@ -15,7 +15,7 @@ import server from "../../images/server storage.png"
 
 const ServicesCards = () => {
   return (
-    <div className='container'>
+    <div className='container service-container'>
         <div className='row'> 
             <h2>Our Services</h2>
          </div>
@@ -66,7 +66,7 @@ const ServicesCards = () => {
                 <img className="img service-image" style={{height:""}} variant="top" src={networkarray} />
                 <div className="card-body service-body bg-dark">
                 
-                <h4 className='card-title'>We deliver a full array of Networking services</h4>
+                <h3 className='card-title'>We deliver a full array of Networking services</h3>
                 
                             <ul>
                                 <li>Wired or wireless network</li>
@@ -85,7 +85,7 @@ const ServicesCards = () => {
                 <div className="card" style={{width:"40vw"}}>
                 <img className="img service-image" variant="top" src={server} />
                 <div className="card-bordy service-body bg-dark">
-                <h4>Servers, Storage & Virtualization Solutions:</h4>
+                <h3>Servers, Storage & Virtualization Solutions:</h3>
                
                 <p>
                     TECHDATA Technologies has extensive experience designing and
@@ -113,7 +113,7 @@ const ServicesCards = () => {
                 <img className="img service-image" variant="top" src={collaboration} />
                 <div className="card-body service-body bg-dark">
                     {/* <h3 className="card-title"> title</h3> */}
-                    <h4>Collaboration (Integrated Data, Voice, Video)</h4>
+                    <h3>Collaboration (Integrated Data, Voice, Video)</h3>
                     
                     <p className="card-text">Integrated Data, Voice and Video have become popular with businesses because
                         of its flexibility, reliability and cost effectiveness. It allows an enterprise to
