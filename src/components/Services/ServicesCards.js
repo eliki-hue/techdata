@@ -16,12 +16,15 @@ import server from "../../images/server storage.png"
 const ServicesCards = () => {
   return (
     <div className='container'>
+        <div className='row'> 
+            <h2>Our Services</h2>
+         </div>
         <div className="row">
             <div className="col-sm-6 column" >
-                <div className="card mb-4 mt-4" style={{width:"40vw"}}>
+                <div className="card " style={{width:"40vw"}}>
                 <img className="img service-image" variant="top" src={system} />
 
-                <div className="card-body service-body" style={{backgroundColor:'rgba(59,130,246,.5);'}}>
+                <div className="card-body service-body bg-dark" style={{backgroundColor:'rgba(59,130,246,.5);'}}>
                     <h3 className="card-title"> System Integration</h3>
                     
                     <p className="card-text">Our customers are increasingly leveraging information technology
@@ -40,9 +43,9 @@ const ServicesCards = () => {
                 </div>
             </div>
             <div className="col-sm-6 column">
-                <div className="card mb-4 mt-4" style={{width:"40vw"}}>
+                <div className="card " style={{width:"40vw"}}>
                 <img className="img service-image" style={{height:""}} variant="top" src={network} /><br/>
-                <div className="card-body service-body">
+                <div className="card-body service-body bg-dark">
                     <h3 className="card-title">Enterprise Network Solutions</h3>
                     
                     
@@ -61,7 +64,7 @@ const ServicesCards = () => {
             <div className="col-sm-6 column" >
                 <div className="card" style={{width:"40vw"}}>
                 <img className="img service-image" style={{height:""}} variant="top" src={networkarray} />
-                <div className="card-body service-body">
+                <div className="card-body service-body bg-dark">
                 
                 <h4 className='card-title'>We deliver a full array of Networking services</h4>
                 
@@ -81,7 +84,7 @@ const ServicesCards = () => {
             <div className="col-sm-6 column">
                 <div className="card" style={{width:"40vw"}}>
                 <img className="img service-image" variant="top" src={server} />
-                <div className="card-bordy service-body">
+                <div className="card-bordy service-body bg-dark">
                 <h4>Servers, Storage & Virtualization Solutions:</h4>
                
                 <p>
@@ -108,7 +111,7 @@ const ServicesCards = () => {
             <div className="col-sm-6 column" >
                 <div className="card" style={{width:"40vw"}}>
                 <img className="img service-image" variant="top" src={collaboration} />
-                <div className="card-body service-body">
+                <div className="card-body service-body bg-dark">
                     {/* <h3 className="card-title"> title</h3> */}
                     <h4>Collaboration (Integrated Data, Voice, Video)</h4>
                     
@@ -124,7 +127,7 @@ const ServicesCards = () => {
                 <div className="card" style={{width:"40vw"}}>
                 <img className="img service-image" variant="top" src={datacenter} />
 
-                <div className="card-body service-body">
+                <div className="card-body service-body bg-dark">
                     <h3 className="card-title">Special title treatment</h3>
                     
                     <p>
@@ -155,11 +158,11 @@ const ServicesCards = () => {
                 <div className="card" style={{width:"40vw"}}>
                 <img className="card-img-top service-image" variant="top" src={systemsupport} />
 
-                <div className="card-body service-body">
+                <div className="card-body service-body bg-dark ">
                 
                     <h3 className="card-title"> System Support</h3>
                     
-                    <p>
+                    <p style={{color:"white"}}>
                     TECHDATA Technologies support services offer flexibility to match the needs
                     of our customers. The majority of our customers prefer a technical support
                     consultancy services model, which is designed to manage and maintain mission
@@ -205,10 +208,10 @@ const ServicesCards = () => {
                 </div>
             </div>
             <div className="col-md-6 column">
-                <div className="card mb-4 mt-4" style={{width:"40vw"}} >
+                <div className="card " style={{width:"40vw"}} >
                 <img className="card-img-top service-image"  variant="top" src={systemmanagement} />
 
-                <div className="card-body service-body">
+                <div className="card-body service-body bg-dark ">
                 
                     <h3 className="card-title">Product / System Maintenance</h3>
                     

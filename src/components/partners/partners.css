@@ -20,17 +20,17 @@
   top: 0;
   height: 100%;
   width: 300%;
-  animation: slideshow 1s linear infinite;
+  animation: slideshow 3s linear infinite;
 }
 .imgslide{
   display: flex;
   height: 200px;
-  transition: opacity 0.1s ease-in-out; 
+  transition: opacity 0.5s ease-in-out; 
 }
 .imgslide img{
   margin:10px;
   width:20%;
-  animation: slideshow 10s linear infinite;
+  animation: slideshow 30s linear infinite;
 }
 @keyframes slideshow {
   0%    { left: 0; }

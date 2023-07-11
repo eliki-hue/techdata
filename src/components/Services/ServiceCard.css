@@ -16,7 +16,9 @@
   border-top-left-radius: 300px;
   border-bottom-right-radius: -600px;
 
-  
+}
+.service .card{
+  border-radius: 100px;
 }
 .service-image{
   height: 50%;
@@ -25,11 +27,12 @@
 
 }
 .service-body{
-  background-color: rgba(16, 31, 60, 0.752);;
+  /* background-color: rgba(16, 31, 60, 0.752);; */
   color:white;
-  /* height: 50%; */
-  
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 55%;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-family:Arial, Helvetica, sans-serif
 }
 .service-body h5,h4,h3{
   color:rgb(249, 53, 53)
@@ -37,5 +40,7 @@
 .service-body p{
   display: flex;
   font-size: larger;
+  color:rgba(245, 245, 245, 0.917);
+  /* color:black; */
   /* align-items: stretch; */
 }
