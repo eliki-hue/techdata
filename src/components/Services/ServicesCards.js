@@ -18,7 +18,7 @@ const ServicesCards = () => {
     <div className='container'>
         <div className="row">
             <div className="col-sm-6 column" >
-                <div className="card" style={{width:"40vw"}}>
+                <div className="card mb-4 mt-4" style={{width:"40vw"}}>
                 <img className="img service-image" variant="top" src={system} />
 
                 <div className="card-body service-body" style={{backgroundColor:'rgba(59,130,246,.5);'}}>
@@ -35,12 +35,12 @@ const ServicesCards = () => {
                         migration, training and related services to support our customers’
                         business objectives.
                     </p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                 </div>
                 </div>
             </div>
             <div className="col-sm-6 column">
-                <div className="card" style={{width:"40vw"}}>
+                <div className="card mb-4 mt-4" style={{width:"40vw"}}>
                 <img className="img service-image" style={{height:""}} variant="top" src={network} /><br/>
                 <div className="card-body service-body">
                     <h3 className="card-title">Enterprise Network Solutions</h3>
@@ -52,7 +52,7 @@ const ServicesCards = () => {
                                 is required for scale and security. Portions of the network are designed for a
                                 specific purposes (WANs, Branch/Campus, and Data Center/Hybrid Cloud) and
                                 require advanced solutions to achieve better network speed, visibility, and endto-end security.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                 </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@ const ServicesCards = () => {
                                 <li>VPN</li>
                                 <li>Wireless Mesh</li>
                             </ul>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                 </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@ const ServicesCards = () => {
                     variety of industry-leading technologies, leaving nothing to chance when it comes
                     to your data
                     </p> */}
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                 </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@ const ServicesCards = () => {
                         of its flexibility, reliability and cost effectiveness. It allows an enterprise to
                         leverage its internet access circuit by dynamically carrying internet and voice
                         traffic flawlessly over it.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                 </div>
                 </div>
             </div>
@@ -145,13 +145,13 @@ const ServicesCards = () => {
                     cost upgrades comprised of our comprehensive portfolios of fiber and copper
                     structured cabling.
                     </p> */}
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                 </div>
                 </div>
             </div>
         </div>
         <div className="row">
-            <div className="col-sm-6 column" >
+            <div className="col-md-6 column" >
                 <div className="card" style={{width:"40vw"}}>
                 <img className="card-img-top service-image" variant="top" src={systemsupport} />
 
@@ -200,12 +200,12 @@ const ServicesCards = () => {
                      Weekly trouble ticket reviews
                      Monthly contract performance reviews 
                     </p> */}
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                 </div>
                 </div>
             </div>
-            <div className="col-sm-6 column">
-                <div className="card" style={{width:"40vw"}} >
+            <div className="col-md-6 column">
+                <div className="card mb-4 mt-4" style={{width:"40vw"}} >
                 <img className="card-img-top service-image"  variant="top" src={systemmanagement} />
 
                 <div className="card-body service-body">
@@ -220,7 +220,7 @@ const ServicesCards = () => {
                     where the software and hardware are upgraded to new major releases by the
                     vendors, Windows updates, System backups and security.
                     </p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                 </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ const introduction = () => {
                     
                 <img className="imageheader" variant="top" src={headerimage} />
                 <div className='overlay'>
-                <div className='liquidshape'></div>
+                {/* <div className='liquidshape'></div> */}
                 </div>
                 
                 <div className='heading'>

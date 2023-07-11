@@ -187,9 +187,9 @@ div {
   /*end of shapes animation  */
 
   /* liquid shape */
-  .liquidshape{
+  /* .liquidshape{ */
     /* background-image: url("../../images/network.jpg"); */
-    background: linear-gradient(45deg, #00ffb6 0%, #000fa3 100%);
+    /* background: linear-gradient(45deg, #00ffb6 0%, #000fa3 100%);
     width: 350px;
     height: 400px;
     z-index: 999;
@@ -197,9 +197,9 @@ div {
     box-shadow:0 0 20px #000;
     border-radius:60% 40% 30% 70% / 60% 30% 70% 40% ;
     animation: liquid 8s ease-in-out infinite;
-  }
+  } */
 
-  @keyframes liquid{
+  /* @keyframes liquid{
     0%{
       border-radius:60% 40% 30% 70% / 60% 30% 70% 40%;
       background-size:100% 100%;
@@ -214,5 +214,5 @@ div {
       
     }
     
-  }
+  } */
   /* end of liquid shape */
