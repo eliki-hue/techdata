@@ -4,7 +4,7 @@ import businessImage from '../../images/business.jpg';
 
 function About() {
   return (
-    <div className='about-parent bg-info'>
+    <div className='about-parent bg-info' id='about'>
     <div className="about-container bg-light">
       <img src={businessImage}  alt="About Us" className="about-image" />
       <div className="about-text">

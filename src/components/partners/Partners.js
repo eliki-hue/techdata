@@ -25,7 +25,7 @@ import uspc from '../../images/customers/uspc.png'
 const Partners = () => {
   return (
     <>
-      <h1>Our Partners</h1><br/><br/>
+      <h1 id='par'>Our Partners</h1><br/><br/>
     <div className="slideshow">
       
       <div className='imagesslide'>

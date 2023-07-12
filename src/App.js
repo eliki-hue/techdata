@@ -9,7 +9,7 @@ import Customers from './components/customers/Customers';
 import ServicesCards from './components/Services/ServicesCards';
 import About from './components/About/About';
 import Contact from './components/Footer/Contact';
-import { HashScroll } from "react-hash-scroll";
+import { HashLink } from 'react-router-hash-link';
 
 function App() {
   return (

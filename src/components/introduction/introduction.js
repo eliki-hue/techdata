@@ -5,7 +5,7 @@ import headerimage from '../../images/network.jpg'
 // import Navbar from '../navbar/Navbar'
 const introduction = () => {
   return (
-    <div>
+    <div id='home'>
         <div className='container-fluid main-container' >
             
             <div className='row intro-row2'>

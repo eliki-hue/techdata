@@ -8,7 +8,7 @@ import './mission.css'
 
 const Mission = () => {
   return (
-    <div className='container mb-4'>
+    <div className='container mb-4' id='mission'>
         <div className='row'>
             <div className='col mission-cards'>
               <div className="card-parent">
@@ -38,7 +38,7 @@ our clients’ requirements.</p>
                   <img className="img mb-4 mission-image" variant="top" src={values} />
                   
                   <h3>{'Values'}</h3>
-                  <p>Built upon the founders’ personal guiding
+                  <p >Built upon the founders’ personal guiding
 principles, these central, underlying philosophies
 guide every aspect in our duties to our internal
 and external clients.</p>
@@ -48,6 +48,7 @@ and external clients.</p>
 
             </div>
         </div>
+        
     </div>
   )
 }

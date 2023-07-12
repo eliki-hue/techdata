@@ -15,8 +15,9 @@ import server from "../../images/server storage.png"
 
 const ServicesCards = () => {
   return (
-    <div className='container service-container'>
-        <div className='row'> 
+    <div id='services'>
+    <div className='container service-container' >
+        <div className='row' > 
             <h2>Our Services</h2>
          </div>
         <div className="row">
@@ -230,6 +231,7 @@ const ServicesCards = () => {
         </div>
         {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-12">grid */}
 
+    </div>
     </div>
   )
 }
