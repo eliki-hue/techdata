@@ -129,7 +129,7 @@ const ServicesCards = () => {
                 <img className="img service-image" variant="top" src={datacenter} />
 
                 <div className="card-body service-body bg-dark">
-                    <h3 className="card-title">Special title treatment</h3>
+                    <h3 className="card-title">Data Center Solutions</h3>
                     
                     <p>
                     In this data decade, organisations are looking to get the most out of their data,
@@ -223,6 +223,46 @@ const ServicesCards = () => {
                     updates that are released to fix specific software related issues, major upgrades
                     where the software and hardware are upgraded to new major releases by the
                     vendors, Windows updates, System backups and security.
+                    </p>
+                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+                </div>
+                </div>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-md-6 column" >
+                <div className="card" style={{width:"40vw"}}>
+                <img className="card-img-top service-image " variant="top" src={managedservices} />
+                <div className="card-body service-body bg-dark ">
+                
+                    <h3 className="card-title"> Consultancy and Managed Network Support Services</h3>
+                    
+                    <p>
+                        TECHDATA Technologies designs, implements, project management, and
+                        networks maintenance.
+                    </p>
+                    {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+                </div>
+                </div>
+            </div>
+            <div className="col-md-6 column">
+                <div className="card " style={{width:"40vw"}} >
+                <img className="card-img-top service-image " variant="top" src={sdlc} />
+
+                <div className="card-body service-body bg-dark ">
+                
+                    <h3 className="card-title">Software Development Services</h3>
+                    
+                    <p>
+                    We employ best practice
+                    processes
+                    and
+                    development
+                    methodologies as a foundation for rapid building of cutting-edge
+                    technology solutions in a structured and methodical way.
+                    Using deep domain expertise of our software developers, we create
+                    impactful digital solutions that drive meaningful change with a
+                    strategic vision.
                     </p>
                     {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                 </div>
