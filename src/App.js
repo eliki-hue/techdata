@@ -8,6 +8,8 @@ import CarouselCustomer from './components/customers/CarouselCustomer';
 import Customers from './components/customers/Customers';
 import ServicesCards from './components/Services/ServicesCards';
 import About from './components/About/About';
+import Contact from './components/Footer/Contact';
+import { HashScroll } from "react-hash-scroll";
 
 function App() {
   return (
@@ -21,7 +23,7 @@ function App() {
       <ServicesCards/>
       <Carousel/>
       {/* <Customers/> */}
-      
+      <Contact/>
     </div>
   );
 }
