@@ -7,7 +7,7 @@
 .card-parent{
     margin-bottom:20px;
 }
-.card:hover{
+.mission-card:hover{
     background-color:rgba(235, 229, 229, 0.336);
     color:rgb(8, 74, 132);
     
@@ -25,6 +25,9 @@
     height: 100%;
     border-radius: 3rem;
     z-index: 999;
+    border-top-left-radius: 300px;
+  border-bottom-right-radius: -600px;
+
     /* margin-top: 20px; */
     
 

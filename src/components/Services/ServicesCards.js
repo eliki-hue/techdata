@@ -232,7 +232,7 @@ const ServicesCards = () => {
         <div className="row">
             <div className="col-md-6 column" >
                 <div className="card" style={{width:"40vw"}}>
-                <img className="card-img-top service-image " variant="top" src={managedservices} />
+                <img className="card-img-top service-image img-b" variant="top" src={managedservices} />
                 <div className="card-body service-body bg-dark ">
                 
                     <h3 className="card-title"> Consultancy and Managed Network Support Services</h3>
@@ -247,7 +247,7 @@ const ServicesCards = () => {
             </div>
             <div className="col-md-6 column">
                 <div className="card " style={{width:"40vw"}} >
-                <img className="card-img-top service-image " variant="top" src={sdlc} />
+                <img className="card-img-top service-image img-b" variant="top" src={sdlc} />
 
                 <div className="card-body service-body bg-dark ">
                 
